@@ -31,3 +31,24 @@ switch (num){
         console.log("Привет Анзор");
         break;
 };
+
+
+let numero = 0;
+while (numero > 22){
+console.log(numero);
+ numero++;
+}
+
+do {
+console.log(num);
+num++;
+}
+while (num < 55);
+
+for (let i = 1; i <= 30; i++){
+if (i == 21) {
+    console.log("Да да , нашему прогеру 21 годик");
+    break;
+}
+console.log(i)
+};
